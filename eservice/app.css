@@ -1,0 +1,62 @@
+.tmselectF{
+	background-color:#999;
+}
+.datarowF {
+	background-color:#99C;
+}
+input[type="text"],input[type="date"] {
+	border: 1px solid #B1B1B1;
+	height:25px;
+	padding-left:3px;
+	min-width:195px;
+	margin-top:2px;
+                                         
+}
+select {
+	border: 1px solid #B1B1B1;
+	height:30px;
+	padding-left:3px;
+	margin-top:1px;
+	max-width:200px;
+}
+checkbox {
+	width:32px;
+	height:32px;
+}
+.menu_tab > div {
+	height:30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	cursor:pointer;
+}
+.menu_tab > div:hover{
+	background-color:#D4D0C8;
+}
+.menu_selectF {
+	background-color:#666;
+}
+.combobox_expand {
+	position:absolute;
+	width:400px;
+	height:200px;
+	margin-top:1px;
+	background-color:#fff;
+	z-index:9;
+	padding-left:3px;
+	border: 2px solid #D4D0C8;
+}
+.txtqwait {
+	background-color:#9C6;
+}
+
+
+.datarow:hover {
+	background-color:#DDD;
+}
+.tabmenuF {
+	background-color:#B5B5B5;
+}
+body {
+	background-color:#859AAD;
+}
