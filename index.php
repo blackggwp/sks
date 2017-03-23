@@ -1,8 +1,8 @@
 <?php
-
-// Redirect to fingerscan
-	header( "location: landing.php" );
- 	exit(0);
+$gen = "?req=".date("Y-m-d_H:i:s");
+// Redirect to landing
+	header( "location: landing.php".$gen);
+	exit(0);
 
 $appservlang = $_GET['appservlang'];
 
